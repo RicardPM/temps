@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.temps" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Temps</name>
+    <description>
+        Prediccio del temps a Barcelona, Tremp i Arenys de Lledó
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <platform name="android">
+        <icon density="ldpi" src="www/11_g.png" />
+        <icon density="mdpi" src="www/11_g.png" />
+        <icon density="hdpi" src="www/11_g.png" />
+        <icon density="xhdpi" src="www/11_g.png" />
+        <icon density="xxhdpi" src="www/11_g.png" />
+        <icon density="xxxhdpi" src="www/11_g.png" />
+        <splash density="land-ldpi" src="www/11_g.png" />
+        <splash density="land-mdpi" src="www/11_g.png" />
+        <splash density="land-hdpi" src="www/11_g.png" />
+        <splash density="land-xhdpi" src="www/11_g.png" />
+        <splash density="land-xxhdpi" src="www/11_g.png" />
+        <splash density="land-xxxhdpi" src="www/11_g.png" />
+        <splash density="port-ldpi" src="www/11_g.png" />
+        <splash density="port-mdpi" src="www/11_g.png" />
+        <splash density="port-hdpi" src="www/11_g.png" />
+        <splash density="port-xhdpi" src="www/11_g.png" />
+        <splash density="port-xxhdpi" src="www/11_g.png" />
+        <splash density="port-xxxhdpi" src="www/11_g.png" />
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>
